@@ -15,6 +15,17 @@
 		188CFB6C1F4ACAF600B783F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188CFB6A1F4ACAF600B783F4 /* LaunchScreen.storyboard */; };
 		188CFB771F4ACAF700B783F4 /* AnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 188CFB761F4ACAF700B783F4 /* AnimationTests.m */; };
 		188CFB821F4ACAF700B783F4 /* AnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 188CFB811F4ACAF700B783F4 /* AnimationUITests.m */; };
+		188CFB961F4ACB3700B783F4 /* RippleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 188CFB911F4ACB3700B783F4 /* RippleModel.m */; };
+		188CFB971F4ACB3700B783F4 /* RippleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 188CFB931F4ACB3700B783F4 /* RippleView.m */; };
+		188CFB981F4ACB3700B783F4 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 188CFB941F4ACB3700B783F4 /* Shader.fsh */; };
+		188CFB991F4ACB3700B783F4 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 188CFB951F4ACB3700B783F4 /* Shader.vsh */; };
+		188CFB9C1F4ACC9100B783F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188CFB9B1F4ACC9100B783F4 /* CoreGraphics.framework */; };
+		188CFB9E1F4ACCA900B783F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188CFB9D1F4ACCA900B783F4 /* Foundation.framework */; };
+		188CFBA01F4ACCB600B783F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188CFB9F1F4ACCB600B783F4 /* UIKit.framework */; };
+		188CFBA21F4ACD2000B783F4 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188CFBA11F4ACD2000B783F4 /* OpenGLES.framework */; };
+		188CFBA41F4ACDD400B783F4 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 188CFBA31F4ACDD400B783F4 /* background.jpg */; };
+		188CFBA61F4ACF2E00B783F4 /* home_top_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 188CFBA51F4ACF2E00B783F4 /* home_top_bg@2x.png */; };
+		188CFBA81F4AD16300B783F4 /* water.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 188CFBA71F4AD16300B783F4 /* water.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +62,19 @@
 		188CFB7D1F4ACAF700B783F4 /* AnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		188CFB811F4ACAF700B783F4 /* AnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationUITests.m; sourceTree = "<group>"; };
 		188CFB831F4ACAF700B783F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188CFB901F4ACB3700B783F4 /* RippleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RippleModel.h; sourceTree = "<group>"; };
+		188CFB911F4ACB3700B783F4 /* RippleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RippleModel.m; sourceTree = "<group>"; };
+		188CFB921F4ACB3700B783F4 /* RippleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RippleView.h; sourceTree = "<group>"; };
+		188CFB931F4ACB3700B783F4 /* RippleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RippleView.m; sourceTree = "<group>"; };
+		188CFB941F4ACB3700B783F4 /* Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.fsh; sourceTree = "<group>"; };
+		188CFB951F4ACB3700B783F4 /* Shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.vsh; sourceTree = "<group>"; };
+		188CFB9B1F4ACC9100B783F4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		188CFB9D1F4ACCA900B783F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		188CFB9F1F4ACCB600B783F4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		188CFBA11F4ACD2000B783F4 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		188CFBA31F4ACDD400B783F4 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpg; path = RippleModel/background.jpg; sourceTree = "<group>"; };
+		188CFBA51F4ACF2E00B783F4 /* home_top_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_top_bg@2x.png"; sourceTree = "<group>"; };
+		188CFBA71F4AD16300B783F4 /* water.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = water.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				188CFBA21F4ACD2000B783F4 /* OpenGLES.framework in Frameworks */,
+				188CFBA01F4ACCB600B783F4 /* UIKit.framework in Frameworks */,
+				188CFB9E1F4ACCA900B783F4 /* Foundation.framework in Frameworks */,
+				188CFB9C1F4ACC9100B783F4 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +113,7 @@
 				188CFB751F4ACAF700B783F4 /* AnimationTests */,
 				188CFB801F4ACAF700B783F4 /* AnimationUITests */,
 				188CFB5A1F4ACAF400B783F4 /* Products */,
+				188CFB9A1F4ACC9000B783F4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +130,10 @@
 		188CFB5B1F4ACAF400B783F4 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
+				188CFBA71F4AD16300B783F4 /* water.jpg */,
+				188CFBA31F4ACDD400B783F4 /* background.jpg */,
+				188CFBA51F4ACF2E00B783F4 /* home_top_bg@2x.png */,
+				188CFB8F1F4ACB3700B783F4 /* RippleModel */,
 				188CFB5F1F4ACAF400B783F4 /* AppDelegate.h */,
 				188CFB601F4ACAF500B783F4 /* AppDelegate.m */,
 				188CFB621F4ACAF500B783F4 /* ViewController.h */,
@@ -138,6 +171,30 @@
 				188CFB831F4ACAF700B783F4 /* Info.plist */,
 			);
 			path = AnimationUITests;
+			sourceTree = "<group>";
+		};
+		188CFB8F1F4ACB3700B783F4 /* RippleModel */ = {
+			isa = PBXGroup;
+			children = (
+				188CFB901F4ACB3700B783F4 /* RippleModel.h */,
+				188CFB911F4ACB3700B783F4 /* RippleModel.m */,
+				188CFB921F4ACB3700B783F4 /* RippleView.h */,
+				188CFB931F4ACB3700B783F4 /* RippleView.m */,
+				188CFB941F4ACB3700B783F4 /* Shader.fsh */,
+				188CFB951F4ACB3700B783F4 /* Shader.vsh */,
+			);
+			path = RippleModel;
+			sourceTree = "<group>";
+		};
+		188CFB9A1F4ACC9000B783F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				188CFBA11F4ACD2000B783F4 /* OpenGLES.framework */,
+				188CFB9F1F4ACCB600B783F4 /* UIKit.framework */,
+				188CFB9D1F4ACCA900B783F4 /* Foundation.framework */,
+				188CFB9B1F4ACC9100B783F4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +306,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				188CFB981F4ACB3700B783F4 /* Shader.fsh in Resources */,
 				188CFB6C1F4ACAF600B783F4 /* LaunchScreen.storyboard in Resources */,
 				188CFB691F4ACAF600B783F4 /* Assets.xcassets in Resources */,
+				188CFBA81F4AD16300B783F4 /* water.jpg in Resources */,
+				188CFBA41F4ACDD400B783F4 /* background.jpg in Resources */,
 				188CFB671F4ACAF500B783F4 /* Main.storyboard in Resources */,
+				188CFBA61F4ACF2E00B783F4 /* home_top_bg@2x.png in Resources */,
+				188CFB991F4ACB3700B783F4 /* Shader.vsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +339,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				188CFB641F4ACAF500B783F4 /* ViewController.m in Sources */,
+				188CFB961F4ACB3700B783F4 /* RippleModel.m in Sources */,
 				188CFB611F4ACAF500B783F4 /* AppDelegate.m in Sources */,
+				188CFB971F4ACB3700B783F4 /* RippleView.m in Sources */,
 				188CFB5E1F4ACAF400B783F4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +495,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HV36SNGZ3R;
 				INFOPLIST_FILE = Animation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SouthStar.Animation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -443,6 +508,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HV36SNGZ3R;
 				INFOPLIST_FILE = Animation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SouthStar.Animation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
